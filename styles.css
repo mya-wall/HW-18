@@ -1,0 +1,40 @@
+
+  {outline: 1px solid red;
+}
+
+.flexContainer{
+    display:flex;
+    width: 33%;
+}
+<!--My UX Skills section coded using CSS flex-->
+flex-direction: column;
+.gridContainer{
+    display:grid;
+}
+item1 {
+    grid-area: myUXSkills;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: "myUXSKills";
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: 40px 80px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto, ;
+  }
+  <!-- My Work Section Constructed using CSS Grid-->
+  @media only screen and (max-width: 600px) 
+  /* Your CSS styles for your grid template area here */
+  flex-direction: column;
+  width: 100%; 
+ #categoryGrid{
+     grid-template-rows: 12.5px, 12.5px, 12.5px. 12.5px;
+     grid-template-column: 1fr, 1fr, 1fr, 1fr;
+     grid-template-areas:
+     "myWorkSkills"
+ }
+
